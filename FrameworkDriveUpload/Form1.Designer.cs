@@ -1,0 +1,135 @@
+﻿namespace FrameworkDriveUpload
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.button1 = new System.Windows.Forms.Button();
+            this.checkBoxPictures = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.progressBarTest = new System.Windows.Forms.ProgressBar();
+            this.label1 = new System.Windows.Forms.Label();
+            this.fileListBox = new System.Windows.Forms.ListBox();
+            this.SuspendLayout();
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1046, 763);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(274, 96);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Start Uploading";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // checkBoxPictures
+            // 
+            this.checkBoxPictures.AutoSize = true;
+            this.checkBoxPictures.Location = new System.Drawing.Point(65, 794);
+            this.checkBoxPictures.Name = "checkBoxPictures";
+            this.checkBoxPictures.Size = new System.Drawing.Size(156, 36);
+            this.checkBoxPictures.TabIndex = 1;
+            this.checkBoxPictures.Text = "Pictures";
+            this.checkBoxPictures.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(315, 794);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(192, 36);
+            this.checkBox2.TabIndex = 2;
+            this.checkBox2.Text = "checkBox2";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(558, 794);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(192, 36);
+            this.checkBox3.TabIndex = 3;
+            this.checkBox3.Text = "checkBox3";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // progressBarTest
+            // 
+            this.progressBarTest.Location = new System.Drawing.Point(493, 684);
+            this.progressBarTest.Name = "progressBarTest";
+            this.progressBarTest.Size = new System.Drawing.Size(545, 41);
+            this.progressBarTest.TabIndex = 4;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(288, 688);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(199, 32);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Total Progress";
+            // 
+            // fileListBox
+            // 
+            this.fileListBox.FormattingEnabled = true;
+            this.fileListBox.ItemHeight = 31;
+            this.fileListBox.Location = new System.Drawing.Point(65, 30);
+            this.fileListBox.Name = "fileListBox";
+            this.fileListBox.Size = new System.Drawing.Size(1255, 531);
+            this.fileListBox.TabIndex = 6;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1379, 902);
+            this.Controls.Add(this.fileListBox);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.progressBarTest);
+            this.Controls.Add(this.checkBox3);
+            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.checkBoxPictures);
+            this.Controls.Add(this.button1);
+            this.Name = "Form1";
+            this.Text = "Google Drive Auto Uploader";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.CheckBox checkBoxPictures;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.ProgressBar progressBarTest;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ListBox fileListBox;
+    }
+}
+
